@@ -5,7 +5,9 @@
   "main": "dist/rollup-watch.cjs.js",
   "jsnext:main": "dist/rollup-watch.es6.js",
   "files": [
-    "src", "dist", "README.md"
+    "src",
+    "dist",
+    "README.md"
   ],
   "scripts": {
     "test": "mocha",
@@ -37,6 +39,7 @@
     "rollup-plugin-json": "^2.0.0"
   },
   "dependencies": {
+    "chokidar": "^1.6.0",
     "semver": "^5.1.0"
   }
 }
